@@ -1,5 +1,5 @@
 @Library('roboshop') _
 
 env.component = "frontend"
-env.appType = "nodejs"
+env.appType = "nginx"
 cipipeline()
