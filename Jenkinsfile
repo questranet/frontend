@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
   agent { label 'workstation'}
 
@@ -48,3 +49,10 @@ pipeline {
   }
 }
 
+=======
+@Library('roboshop') _
+
+env.component = "frontend"
+env.appType = "nodejs"
+cipipeline()
+>>>>>>> cf40924 (INIT)
