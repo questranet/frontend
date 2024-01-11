@@ -1,4 +1,5 @@
 appName: frontend
+appVersion: 2.0.0
 replicas: 2
 
 service:
@@ -12,22 +13,22 @@ job:
   enabled: false
 
 
-ingress:
-  enabled: true
-  port: 80
-  host: frontend-prod.waleapagun.online
-
-resources:
-  requests:
-    memory: "500Mi"
-    cpu: "250m"
-  limits:
-    memory: "750Mi"
-    cpu: "350m"
-
-autoscaling:
-  enabled: true
-  minReplicas: 2
-  maxReplicas: 10
-  targetCPUUtilizationPercentage: 80
-  targetMemoryUtilizationPercentage: 80
+#ingress:
+#  enabled: true
+#  port: 80
+#  host: frontend-prod.waleapagun.online
+#
+#resources:
+#  requests:
+#    memory: "500Mi"
+#    cpu: "250m"
+#  limits:
+#    memory: "750Mi"
+#    cpu: "350m"
+#
+#autoscaling:
+#  enabled: true
+#  minReplicas: 2
+#  maxReplicas: 10
+#  targetCPUUtilizationPercentage: 80
+#  targetMemoryUtilizationPercentage: 80
