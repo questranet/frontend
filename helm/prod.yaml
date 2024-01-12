@@ -18,14 +18,14 @@ ingress:
   port: 80
   host: frontend-prod.waleapagun.online
 
-#resources:
-#  requests:
-#    memory: "500Mi"
-#    cpu: "250m"
-#  limits:
-#    memory: "750Mi"
-#    cpu: "350m"
-#
+resources:
+  requests:
+    memory: "500Mi"
+    cpu: "250m"
+  limits:
+    memory: "750Mi"
+    cpu: "350m"
+
 #autoscaling:
 #  enabled: true
 #  minReplicas: 2
