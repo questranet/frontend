@@ -13,11 +13,11 @@ job:
   enabled: false
 
 
-#ingress:
-#  enabled: true
-#  port: 80
-#  host: frontend-prod.waleapagun.online
-#
+ingress:
+  enabled: true
+  port: 80
+  host: frontend-prod.waleapagun.online
+
 #resources:
 #  requests:
 #    memory: "500Mi"
